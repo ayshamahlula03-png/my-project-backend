@@ -1,7 +1,7 @@
 const cron         = require('node-cron')
 const { supabase, supabaseAdmin } = require('../supabase')
 const { getISTDate, getISTTomorrow } = require('../helpers/ist')
-const { runAutomation } = require('../automation')
+const { runAutomation } = require('../Automation')
 
 const REEL_DESIGNERS = ['Divya', 'Sneha']
 
