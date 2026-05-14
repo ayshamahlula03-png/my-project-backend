@@ -3,7 +3,7 @@ const router     = express.Router()
 const multer     = require('multer')
 const { supabaseAdmin }                      = require('../supabase')
 const { uploadFileToDrive, listFolders, listFilesInFolder, hasOAuthToken } = require('../DriveService')
-const { runAutomationFromBuffer }            = require('../automation')
+const { runAutomationFromBuffer }            = require('../Automation')
 const { authMiddleware }                     = require('../middleware/auth')
 const { generateUploadToken }                = require('../helpers/ist')
 
